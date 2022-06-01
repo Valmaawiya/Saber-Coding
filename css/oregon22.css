@@ -28,6 +28,11 @@ h1, h2{
 	font-family: 'Cairo', sans-serif;
 }
 
+h2{
+	text-align: left;
+
+}
+
 header img{
 	border-radius: 1000px;
 	width: 500px;
@@ -36,7 +41,7 @@ header img{
 
 main{
 	max-width: 800px;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -79,4 +84,12 @@ p.caption{
 	text-align: left;
 	font-style: italic;
 	margin-top: 0;
+}
+
+ul{
+	text-align: left;
+}
+
+ol{
+	text-align: left;
 }
